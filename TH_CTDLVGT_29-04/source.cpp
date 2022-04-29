@@ -7,7 +7,7 @@ using namespace std;
 #define MAXNODES 50
 #define VOCUNG 3000
 
-int trongSo[MAX][MAX];
+int trongSo[MAX][MAX]; // biến toàn cục -> file source, thêm extern
 int soNut;
 void init();
 void themCung(int node1, int node2, int ts);
@@ -119,7 +119,7 @@ int main() {
       cin >> nutDen;
       dijkstra(nutDi, nutDen, &ngan, duongDi);
       cout << "\nDuong di ngan nhat tu " << nutDi << " den nut " << nutDen << " la " << ngan;
-      cout << "\nLo trinh";
+      cout << "\nLo trinh ";
       i = nutDen;
       while (i != nutDi) {
         cout << i << " <- ";
