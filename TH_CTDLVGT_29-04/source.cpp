@@ -7,7 +7,7 @@ using namespace std;
 #define MAXNODES 50
 #define VOCUNG 3000
 
-int trongSo[MAX][MAX]; // biến toàn cục -> file source, thêm extern
+int trongSo[MAX][MAX]; // biến toàn cục -> thêm vào file source, thêm extern vào file main
 int soNut;
 void init();
 void themCung(int node1, int node2, int ts);
