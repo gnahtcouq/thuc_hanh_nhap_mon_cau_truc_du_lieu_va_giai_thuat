@@ -101,7 +101,7 @@ int main() {
     case 8:
       cout << "\nNhap cung can tim x = ";
       cin >> x;
-      cout << "\nNHap cung can tim y = ";
+      cout << "\nNhap cung can tim y = ";
       cin >> y;
       if (x > soNut && y > soNut)
         cout << "\nKhong hop le";
@@ -109,7 +109,7 @@ int main() {
         if (trongSo[x][y] < VOCUNG)
           cout << "\nCo cung (" << x << y << ") voi trong so " << trongSo[x][y];
         else
-          cout << "\nKhogn co cung nay";
+          cout << "\nKhong co cung nay";
       }
       break;
     case 9:
